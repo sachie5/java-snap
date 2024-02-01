@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0140048-3f0f-45bb-af7c-fcd69b7e663e" name="Changes" comment="created Crad, CardGame class with variables and functions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Snap.java" afterDir="false" />
+    <list default="true" id="c0140048-3f0f-45bb-af7c-fcd69b7e663e" name="Changes" comment="created Snap class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Snap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +30,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bjA1OQFWAKN8j39lz6781JAqW2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -72,20 +75,29 @@
       <option name="project" value="LOCAL" />
       <updated>1706729773102</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created Snap class">
+      <option name="closed" value="true" />
+      <created>1706739805246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706739805247</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created Crad, CardGame class with variables and functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Crad, CardGame class with variables and functions" />
+    <MESSAGE value="created Snap class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Snap class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/StringTransformer.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

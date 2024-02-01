@@ -1,13 +1,19 @@
 package main.java;
 
-import java.util.ArrayList;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class CardGame {
     private static final ArrayList<Card> deckOfCards = new ArrayList<>();
+    private final ArrayList<Card> usedCards = new ArrayList<>();
+    private String name;
+
+    public ArrayList<Card> getUsedCards() {
+        return usedCards;
+    }
+
+    public List<Card> getDeck() {
+        return deckOfCards;
+    }
 
     static {
         deckOfCards.add(new Card("♥", "2", 2));
@@ -64,42 +70,30 @@ public class CardGame {
         deckOfCards.add(new Card("♠", "A", 14));
 
     }
-
-    private String name;
-
     public CardGame(String name) {
         this.name = name;
     }
 
-    public List<Card> getDeck() {
-        return deckOfCards;
-    }
-
-    public Card dealCard() {
-        return deckOfCards.get(0);
+    public void dealCard() {
+       Card newCard = deckOfCards.get(0);
+       System.out.println(newCard);
+       usedCards.add(newCard);
+       deckOfCards.remove(newCard);
     }
 
     public ArrayList<Card> sortDeckInNumberOrder() {
-        for (Card card : deckOfCards) {
-            Collections.sort(deckOfCards, (a, b) -> a.getValue() - b.getValue());
-        }
-        return deckOfCards;
+            deckOfCards.sort((a, b) -> a.getValue() - b.getValue());
+            return deckOfCards;
     }
 
     public ArrayList<Card> sortDeckIntoSuits() {
-        Collections.sort(deckOfCards, (a, b) -> a.getSuit().compareTo(b.getSuit()));
-        for (Card card : deckOfCards) {
-            if (card.getSuit().equals(card.getSuit())) {
-                Collections.sort(deckOfCards, (a, b) -> a.getValue() - b.getValue());
-            }
-        }
+        deckOfCards.sort(Comparator.comparing(Card::getSuit));
         return deckOfCards;
     }
 
-    public ArrayList<Card> shuffleDeck() {
+    public void shuffleDeck() {
         Random random = new Random();
         Collections.shuffle(deckOfCards, random);
-        return deckOfCards;
     }
 
 }

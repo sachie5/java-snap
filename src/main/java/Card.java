@@ -37,14 +37,10 @@ public class Card {
 
     @Override
     public String toString() {
-        return "Card{" +
-                "suit='" + suit + '\'' +
-                ", symbol='" + symbol + '\'' +
-                ", value=" + value +
+        return "Card {" +
+                "suit= '" + suit + '\'' +
+                ", symbol= '" + symbol + '\'' +
+                ", value= " + value +
                 '}';
     }
 }
-// \u2665 - heart
-// \u2666 - diamonds
-// \u2663 - clubs
-// \u2660 - spades
