@@ -1,0 +1,369 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c0140048-3f0f-45bb-af7c-fcd69b7e663e\" name=\"Changes\" comment=\"created Snap class\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/StringTransformer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Card.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Card.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/CardGame.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/CardGame.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Snap.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Snap.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2bjA1OQFWAKN8j39lz6781JAqW2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/winni/Development/nology/Java/java-snap/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c0140048-3f0f-45bb-af7c-fcd69b7e663e\" name=\"Changes\" comment=\"\" />\r\n      <created>1706717902168</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1706717902168</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"created Crad, CardGame class with variables and functions\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706729773102</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706729773102</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"created Snap class\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706739805246</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706739805247</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"created Crad, CardGame class with variables and functions\" />\r\n    <MESSAGE value=\"created Snap class\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"created Snap class\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/StringTransformer.java</url>\r\n          <line>19</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ad6cdb2e8f07ca95c40c360443e2d71b78f12a5a)
++++ b/.idea/workspace.xml	(date 1706808185228)
+@@ -4,8 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c0140048-3f0f-45bb-af7c-fcd69b7e663e" name="Changes" comment="created Snap class">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/StringTransformer.java" afterDir="false" />
++    <list default="true" id="c0140048-3f0f-45bb-af7c-fcd69b7e663e" name="Changes" comment="remove stringtransformer class">
++      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerOne.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerTwo.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Card.java" afterDir="false" />
+@@ -20,6 +22,7 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="Interface" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -83,23 +86,30 @@
+       <option name="project" value="LOCAL" />
+       <updated>1706739805247</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="created welcomeMessage, takeTurn and winGame functions that work for single-player game">
++      <option name="closed" value="true" />
++      <created>1706802303066</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1706802303066</updated>
++    </task>
++    <task id="LOCAL-00004" summary="remove stringtransformer class">
++      <option name="closed" value="true" />
++      <created>1706802348750</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1706802348750</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="created Crad, CardGame class with variables and functions" />
+     <MESSAGE value="created Snap class" />
+-    <option name="LAST_COMMIT_MESSAGE" value="created Snap class" />
+-  </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/main/java/StringTransformer.java</url>
+-          <line>19</line>
+-          <option name="timeStamp" value="2" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
++    <MESSAGE value="created welcomeMessage, takeTurn and winGame functions that work for single-player game" />
++    <MESSAGE value="remove stringtransformer class" />
++    <option name="LAST_COMMIT_MESSAGE" value="remove stringtransformer class" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import main.java.Snap;\r\n\r\n//TIP To <b>Run</b> code, press <shortcut actionId=\"Run\"/> or\r\n// click the <icon src=\"AllIcons.Actions.Execute\"/> icon in the gutter.\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        Snap snap = new Snap(\"User\");\r\n        boolean gameOver = false;\r\n\r\n        snap.shuffleDeck();\r\n        snap.welcomeMessage();\r\n\r\n        while(!gameOver){\r\n            snap.takeTurn();\r\n            System.out.println(snap.winGame());\r\n\r\n            if(snap.winGame()){\r\n                gameOver = true;\r\n                snap.winMessage();\r\n            }\r\n        }\r\n\r\n\r\n\r\n\r\n\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision ad6cdb2e8f07ca95c40c360443e2d71b78f12a5a)
++++ b/src/Main.java	(date 1706808664665)
+@@ -1,18 +1,29 @@
++import main.java.PlayerOne;
++import main.java.PlayerTwo;
+ import main.java.Snap;
+ 
+ //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+ // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+ public class Main {
+     public static void main(String[] args) {
+-        Snap snap = new Snap("User");
++        Snap snap = new Snap("Game");
++        PlayerOne playerOne = new PlayerOne("PlayerOne");
++        PlayerTwo playerTwo = new PlayerTwo("PlayerTwo");
+         boolean gameOver = false;
+ 
+         snap.shuffleDeck();
+         snap.welcomeMessage();
+ 
+         while(!gameOver){
+-            snap.takeTurn();
+-            System.out.println(snap.winGame());
++
++            playerOne.takeTurn();
++            System.out.println(playerOne.displayName());
++            System.out.println(snap.getUsedCards());
++            playerOne.callSnap();
++            playerTwo.takeTurn();
++            System.out.println(playerTwo.displayName());
++            System.out.println(snap.getUsedCards());
++            playerTwo.callSnap();
+ 
+             if(snap.winGame()){
+                 gameOver = true;
+@@ -21,9 +32,5 @@
+         }
+ 
+ 
+-
+-
+-
+-
+     }
+ }
+\ No newline at end of file
+Index: src/main/java/PlayerTwo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/PlayerTwo.java b/src/main/java/PlayerTwo.java
+new file mode 100644
+--- /dev/null	(date 1706808888406)
++++ b/src/main/java/PlayerTwo.java	(date 1706808888406)
+@@ -0,0 +1,47 @@
++package main.java;
++
++import java.util.ArrayList;
++import java.util.List;
++import java.util.Scanner;
++import java.util.stream.Collectors;
++
++public class PlayerTwo extends Snap implements Player{
++
++    private static final Scanner scanner = new Scanner(System.in);
++    private static final List<Card> playerTwoUsedCards = new ArrayList<>();
++
++    public PlayerTwo(String name) {
++        super(name);
++    }
++
++    @Override
++    public void takeTurn() {
++        String userInput = scanner.nextLine();
++        Card playedCard = null;
++        if (userInput.isEmpty()) {
++            playedCard = dealCard();
++            System.out.println(playedCard);
++            playerTwoUsedCards.add(playedCard);
++            System.out.println(getUsedCards());
++            getDeck().remove(playedCard);
++        }
++    }
++
++    @Override
++    public void callSnap() {
++        boolean win = false;
++        List<Card> cards = getUsedCards();
++        List<String> compared = cards.stream()
++                .map(card -> card.getSymbol())
++                .collect(Collectors.toList());
++        if(compared.size() >= 2){
++            if(compared.get(compared.size() - 1).equals(compared.get(compared.size() - 2))){
++                win = true;
++            }
++        }
++    }
++
++    public String displayName(){
++        return getName();
++    }
++}
+Index: src/main/java/Player.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Player.java b/src/main/java/Player.java
+new file mode 100644
+--- /dev/null	(date 1706808664630)
++++ b/src/main/java/Player.java	(date 1706808664630)
+@@ -0,0 +1,10 @@
++package main.java;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public interface Player {
++    void takeTurn();
++
++    void callSnap();
++}
+Index: src/main/java/PlayerOne.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/PlayerOne.java b/src/main/java/PlayerOne.java
+new file mode 100644
+--- /dev/null	(date 1706809084442)
++++ b/src/main/java/PlayerOne.java	(date 1706809084442)
+@@ -0,0 +1,46 @@
++package main.java;
++
++import java.util.ArrayList;
++import java.util.List;
++import java.util.Scanner;
++import java.util.stream.Collectors;
++
++public class PlayerOne extends Snap implements Player {
++    private static final Scanner scanner = new Scanner(System.in);
++    private static final List<Card> playerOneUsedCards = new ArrayList<>();
++
++    public PlayerOne(String name) {
++        super(name);
++    }
++
++    @Override
++    public void takeTurn() {
++        String userInput = scanner.nextLine();
++        Card playedCard = null;
++        if (userInput.isEmpty()) {
++            playedCard = dealCard();
++            System.out.println(playedCard);
++            playerOneUsedCards.add(playedCard);
++            System.out.println(getUsedCards());
++            getDeck().remove(playedCard);
++        }
++    }
++
++    @Override
++    public void callSnap() {
++        boolean win = false;
++        List<Card> cards = setUsedCards();
++        List<String> compared = cards.stream()
++                .map(card -> card.getSymbol())
++                .collect(Collectors.toList());
++        if(compared.size() >= 2){
++            if(compared.get(compared.size() - 1).equals(compared.get(compared.size() - 2))){
++                win = true;
++            }
++        }
++    }
++
++    public String displayName(){
++        return getName();
++    }
++}
+Index: src/main/java/Snap.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package main.java;\r\n\r\nimport java.util.List;\r\nimport java.util.Scanner;\r\nimport java.util.stream.Collectors;\r\n\r\npublic class Snap extends CardGame {\r\n\r\n    private static final Scanner scanner = new Scanner(System.in);\r\n\r\n    public Snap(String name) {\r\n        super(name);\r\n    }\r\n\r\n    public void welcomeMessage(){\r\n        System.out.println(\"Welcome to the Game of Snap.\");\r\n        System.out.println(\"Press enter to start the game by dealing a card.\");\r\n    }\r\n\r\n    public void takeTurn() {\r\n        String userInput = scanner.nextLine();\r\n        if (userInput.isEmpty()) {\r\n            dealCard();\r\n        }\r\n    }\r\n\r\n    public boolean winGame() {\r\n        boolean win = false;\r\n        List<Card> cards = getUsedCards();\r\n        List<String> compared = cards.stream()\r\n                .map(card -> card.getSymbol())\r\n                .collect(Collectors.toList());\r\n        if(compared.size() >= 2){\r\n            if(compared.get(compared.size() - 1).equals(compared.get(compared.size() - 2))){\r\n                win = true;\r\n            }\r\n        }\r\n        return win;\r\n        }\r\n\r\n\r\n    public void winMessage(){\r\n        System.out.println(\"You have won the game!\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Snap.java b/src/main/java/Snap.java
+--- a/src/main/java/Snap.java	(revision ad6cdb2e8f07ca95c40c360443e2d71b78f12a5a)
++++ b/src/main/java/Snap.java	(date 1706808219344)
+@@ -8,10 +8,10 @@
+ 
+     private static final Scanner scanner = new Scanner(System.in);
+ 
++
+     public Snap(String name) {
+         super(name);
+     }
+-
+     public void welcomeMessage(){
+         System.out.println("Welcome to the Game of Snap.");
+         System.out.println("Press enter to start the game by dealing a card.");
+Index: src/main/java/CardGame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package main.java;\r\n\r\nimport java.util.*;\r\n\r\npublic class CardGame {\r\n    private static final ArrayList<Card> deckOfCards = new ArrayList<>();\r\n    private final ArrayList<Card> usedCards = new ArrayList<>();\r\n    private String name;\r\n\r\n    public ArrayList<Card> getUsedCards() {\r\n        return usedCards;\r\n    }\r\n\r\n    public List<Card> getDeck() {\r\n        return deckOfCards;\r\n    }\r\n\r\n    static {\r\n        deckOfCards.add(new Card(\"♥\", \"2\", 2));\r\n        deckOfCards.add(new Card(\"♥\", \"3\", 3));\r\n        deckOfCards.add(new Card(\"♥\", \"4\", 4));\r\n        deckOfCards.add(new Card(\"♥\", \"5\", 5));\r\n        deckOfCards.add(new Card(\"♥\", \"6\", 6));\r\n        deckOfCards.add(new Card(\"♥\", \"7\", 7));\r\n        deckOfCards.add(new Card(\"♥\", \"8\", 8));\r\n        deckOfCards.add(new Card(\"♥\", \"9\", 9));\r\n        deckOfCards.add(new Card(\"♥\", \"10\", 10));\r\n        deckOfCards.add(new Card(\"♥\", \"J\", 11));\r\n        deckOfCards.add(new Card(\"♥\", \"K\", 12));\r\n        deckOfCards.add(new Card(\"♥\", \"Q\", 13));\r\n        deckOfCards.add(new Card(\"♥\", \"A\", 14));\r\n        deckOfCards.add(new Card(\"♦\", \"2\", 2));\r\n        deckOfCards.add(new Card(\"♦\", \"3\", 3));\r\n        deckOfCards.add(new Card(\"♦\", \"4\", 4));\r\n        deckOfCards.add(new Card(\"♦\", \"5\", 5));\r\n        deckOfCards.add(new Card(\"♦\", \"6\", 6));\r\n        deckOfCards.add(new Card(\"♦\", \"7\", 7));\r\n        deckOfCards.add(new Card(\"♦\", \"8\", 8));\r\n        deckOfCards.add(new Card(\"♦\", \"9\", 9));\r\n        deckOfCards.add(new Card(\"♦\", \"10\", 10));\r\n        deckOfCards.add(new Card(\"♦\", \"J\", 11));\r\n        deckOfCards.add(new Card(\"♦\", \"K\", 12));\r\n        deckOfCards.add(new Card(\"♦\", \"Q\", 13));\r\n        deckOfCards.add(new Card(\"♦\", \"A\", 14));\r\n        deckOfCards.add(new Card(\"♣\", \"2\", 2));\r\n        deckOfCards.add(new Card(\"♣\", \"3\", 3));\r\n        deckOfCards.add(new Card(\"♣\", \"4\", 4));\r\n        deckOfCards.add(new Card(\"♣\", \"5\", 5));\r\n        deckOfCards.add(new Card(\"♣\", \"6\", 6));\r\n        deckOfCards.add(new Card(\"♣\", \"7\", 7));\r\n        deckOfCards.add(new Card(\"♣\", \"8\", 8));\r\n        deckOfCards.add(new Card(\"♣\", \"9\", 9));\r\n        deckOfCards.add(new Card(\"♣\", \"10\", 10));\r\n        deckOfCards.add(new Card(\"♣\", \"J\", 11));\r\n        deckOfCards.add(new Card(\"♣\", \"K\", 12));\r\n        deckOfCards.add(new Card(\"♣\", \"Q\", 13));\r\n        deckOfCards.add(new Card(\"♣\", \"A\", 14));\r\n        deckOfCards.add(new Card(\"♠\", \"2\", 2));\r\n        deckOfCards.add(new Card(\"♠\", \"3\", 3));\r\n        deckOfCards.add(new Card(\"♠\", \"4\", 4));\r\n        deckOfCards.add(new Card(\"♠\", \"5\", 5));\r\n        deckOfCards.add(new Card(\"♠\", \"6\", 6));\r\n        deckOfCards.add(new Card(\"♠\", \"7\", 7));\r\n        deckOfCards.add(new Card(\"♠\", \"8\", 8));\r\n        deckOfCards.add(new Card(\"♠\", \"9\", 9));\r\n        deckOfCards.add(new Card(\"♠\", \"10\", 10));\r\n        deckOfCards.add(new Card(\"♠\", \"J\", 11));\r\n        deckOfCards.add(new Card(\"♠\", \"K\", 12));\r\n        deckOfCards.add(new Card(\"♠\", \"Q\", 13));\r\n        deckOfCards.add(new Card(\"♠\", \"A\", 14));\r\n\r\n    }\r\n    public CardGame(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public void dealCard() {\r\n       Card newCard = deckOfCards.get(0);\r\n       System.out.println(newCard);\r\n       usedCards.add(newCard);\r\n       deckOfCards.remove(newCard);\r\n    }\r\n\r\n    public ArrayList<Card> sortDeckInNumberOrder() {\r\n            deckOfCards.sort((a, b) -> a.getValue() - b.getValue());\r\n            return deckOfCards;\r\n    }\r\n\r\n    public ArrayList<Card> sortDeckIntoSuits() {\r\n        deckOfCards.sort(Comparator.comparing(Card::getSuit));\r\n        return deckOfCards;\r\n    }\r\n\r\n    public void shuffleDeck() {\r\n        Random random = new Random();\r\n        Collections.shuffle(deckOfCards, random);\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/CardGame.java b/src/main/java/CardGame.java
+--- a/src/main/java/CardGame.java	(revision ad6cdb2e8f07ca95c40c360443e2d71b78f12a5a)
++++ b/src/main/java/CardGame.java	(date 1706809084421)
+@@ -4,9 +4,21 @@
+ 
+ public class CardGame {
+     private static final ArrayList<Card> deckOfCards = new ArrayList<>();
+-    private final ArrayList<Card> usedCards = new ArrayList<>();
++    private ArrayList<Card> usedCards = new ArrayList<>();
+     private String name;
+ 
++    public String getName() {
++        return name;
++    }
++
++    public void setUsedCards(ArrayList<Card> usedCards) {
++        this.usedCards = usedCards;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
+     public ArrayList<Card> getUsedCards() {
+         return usedCards;
+     }
+@@ -74,11 +86,8 @@
+         this.name = name;
+     }
+ 
+-    public void dealCard() {
+-       Card newCard = deckOfCards.get(0);
+-       System.out.println(newCard);
+-       usedCards.add(newCard);
+-       deckOfCards.remove(newCard);
++    public Card dealCard() {
++        return deckOfCards.get(0);
+     }
+ 
+     public ArrayList<Card> sortDeckInNumberOrder() {
+Index: src/main/java/Card.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package main.java;\r\n\r\npublic class Card {\r\n    private String suit;\r\n    private String symbol;\r\n    private int value;\r\n\r\n    public String getSuit() {\r\n        return suit;\r\n    }\r\n\r\n    public void setSuit(String suit) {\r\n        this.suit = suit;\r\n    }\r\n\r\n    public String getSymbol() {\r\n        return symbol;\r\n    }\r\n\r\n    public void setSymbol(String symbol) {\r\n        this.symbol = symbol;\r\n    }\r\n\r\n    public int getValue() {\r\n        return value;\r\n    }\r\n\r\n    public void setValue(int value) {\r\n        this.value = value;\r\n    }\r\n\r\n    public Card(String suit, String symbol, int value) {\r\n        this.suit = suit;\r\n        this.symbol = symbol;\r\n        this.value = value;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Card {\" +\r\n                \"suit= '\" + suit + '\\'' +\r\n                \", symbol= '\" + symbol + '\\'' +\r\n                \", value= \" + value +\r\n                '}';\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Card.java b/src/main/java/Card.java
+--- a/src/main/java/Card.java	(revision ad6cdb2e8f07ca95c40c360443e2d71b78f12a5a)
++++ b/src/main/java/Card.java	(date 1706802672977)
+@@ -9,26 +9,14 @@
+         return suit;
+     }
+ 
+-    public void setSuit(String suit) {
+-        this.suit = suit;
+-    }
+-
+     public String getSymbol() {
+         return symbol;
+     }
+ 
+-    public void setSymbol(String symbol) {
+-        this.symbol = symbol;
+-    }
+-
+     public int getValue() {
+         return value;
+     }
+ 
+-    public void setValue(int value) {
+-        this.value = value;
+-    }
+-
+     public Card(String suit, String symbol, int value) {
+         this.suit = suit;
+         this.symbol = symbol;
