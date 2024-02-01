@@ -28,7 +28,7 @@ public class Snap extends CardGame {
         boolean win = false;
         List<Card> cards = getUsedCards();
         List<String> compared = cards.stream()
-                .map(card -> card.getSymbol())
+                .map(Card::getSymbol)
                 .collect(Collectors.toList());
         if(compared.size() >= 2){
             if(compared.get(compared.size() - 1).equals(compared.get(compared.size() - 2))){
