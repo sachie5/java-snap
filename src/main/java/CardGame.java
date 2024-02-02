@@ -3,15 +3,16 @@ package main.java;
 import java.util.*;
 
 public class CardGame {
+
     private static final ArrayList<Card> deckOfCards = new ArrayList<>();
-    private final ArrayList<Card> usedCards = new ArrayList<>();
+    private ArrayList<Card> usedCards = new ArrayList<>();
     private String name;
 
     public ArrayList<Card> getUsedCards() {
         return usedCards;
     }
 
-    public List<Card> getDeck() {
+    public ArrayList<Card> getDeck() {
         return deckOfCards;
     }
 
@@ -74,11 +75,8 @@ public class CardGame {
         this.name = name;
     }
 
-    public void dealCard() {
-       Card newCard = deckOfCards.get(0);
-       System.out.println(newCard);
-       usedCards.add(newCard);
-       deckOfCards.remove(newCard);
+    public Card dealCard() {
+        return deckOfCards.get(0);
     }
 
     public ArrayList<Card> sortDeckInNumberOrder() {
@@ -91,9 +89,10 @@ public class CardGame {
         return deckOfCards;
     }
 
-    public void shuffleDeck() {
+    public ArrayList<Card> shuffleDeck() {
         Random random = new Random();
         Collections.shuffle(deckOfCards, random);
+        return deckOfCards;
     }
 
 }

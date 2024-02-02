@@ -11,7 +11,6 @@ public class Snap extends CardGame {
     public Snap(String name) {
         super(name);
     }
-
     public void welcomeMessage(){
         System.out.println("Welcome to the Game of Snap.");
         System.out.println("Press enter to start the game by dealing a card.");
@@ -20,9 +19,12 @@ public class Snap extends CardGame {
     public void takeTurn() {
         String userInput = scanner.nextLine();
         if (userInput.isEmpty()) {
-            dealCard();
+            System.out.println(dealCard());
+            getUsedCards().add(dealCard());
+            getDeck().remove(dealCard());
         }
     }
+
 
     public boolean winGame() {
         boolean win = false;
