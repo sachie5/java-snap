@@ -19,6 +19,7 @@ public class Snap extends CardGame {
     public void takeTurn() {
         String userInput = scanner.nextLine();
         if (userInput.isEmpty()) {
+            System.out.println(getName());
             System.out.println(dealCard());
             getUsedCards().add(dealCard());
             getDeck().remove(dealCard());
@@ -26,7 +27,7 @@ public class Snap extends CardGame {
     }
 
 
-    public boolean winGame() {
+    public static boolean winGame() {
         boolean win = false;
         List<Card> cards = getUsedCards();
         List<String> compared = cards.stream()

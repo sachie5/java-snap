@@ -1,8 +1,19 @@
 package main.java;
 
+public class Player extends Snap {
 
-public interface Player {
-    void takeTurn();
+    public Player(String name) {
+        super(name);
+    }
 
-    void callSnap();
+    public void playerTurn() {
+        takeTurn();
+    }
+
+
+    public void callSnap() {
+        winGame();
+        System.out.println(getName() + " wins");
+        winMessage();
+    }
 }
